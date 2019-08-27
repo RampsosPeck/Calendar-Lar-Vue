@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Calendar</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -12,12 +12,16 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                 
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
+                background: #00bf8f;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
             }
 
             .full-height {
@@ -49,7 +53,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #001510;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
@@ -57,6 +61,7 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
+
 
             .m-b-md {
                 margin-bottom: 30px;
@@ -80,18 +85,14 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="title m-b-md "> 
+                    <p style="color: #001510;"> CALENDAR LARVUE </p>  
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://www.youtube.com/watch?v=x_WMkIKztRQ">Document</a>
+                    <a href="https://fullcalendar.io/docs/vue?fbclid=IwAR0GcInQ-fv66CEyVAOx2xOWblZALSuDMTxkOZsoKL9M7PEcDObLSEYB518">Vue Calendar</a> 
+                    <a href="https://github.com/RampsosPeck/Calendar-Lar-Vue">GitHub</a>
                 </div>
             </div>
         </div>

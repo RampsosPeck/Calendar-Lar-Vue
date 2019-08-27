@@ -6,3 +6,34 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+.navbar {
+	background-color: #001510;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #00bf8f;
+}
+
+.navbar-light .navbar-brand {
+    color: #00bf8f;
+}
+
+body {
+	background: #00bf8f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.fc-view-container {
+    background: #dff0d8;
+    
+}
+ 
+.fc-toolbar.fc-header-toolbar {
+     color: #00bf8f;
+}
+
+
